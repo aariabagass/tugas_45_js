@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Href Location</title>
+</head>
+
+<body>
+  <p id="href"></p>
+  <button onclick="bHref()">Liat href</button>
+
+  <script type="text/javascript">
+    var bHref = () => {
+      x = location.href;
+      document.getElementById("href").innerHTML = x;
+    }
+  </script>
+</body>
+
+</html>
